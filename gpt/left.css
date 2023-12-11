@@ -1,0 +1,182 @@
+/* left和right自适应屏幕高度 */
+.left {
+    float: left;
+    width: 250px;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    padding-left: 12px;
+}
+
+.header{
+    width: 236px;
+    height: 806px;
+}
+
+.nc {
+    width: 236px;
+    height: 54px;
+    padding-top: 14px;
+}
+
+.nc_a {
+    text-decoration: none;
+    width: 225px;
+    height: 45px;
+    padding-top: 2px;
+    display: block;
+    border-radius: 10px;
+}
+
+.nc_a:hover {
+    background-color: rgb(32,33,35);
+}
+
+.nc_ic {
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+
+.nc_ic img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.nc_text {
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.nc_text p {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.edit {
+    float: right;
+    width: 16px;
+    height: 16px;
+    margin-top: 13px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.history {
+    width: 236px;
+    height: 500px;
+}
+
+.Today{
+    font-size: 12px;
+    font-weight: 400;
+    width: 236px;
+    height: 36px;
+    margin-top: 30px;
+    padding-top: 12px;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+}
+
+.history_a{
+    text-decoration: none;
+    width: 225px;
+    height: 36px;
+    display: block;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.history_a:hover{
+    background-color: rgb(32,33,35);
+}
+
+.detail{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+
+.footer{
+    width: 236px;
+    height: 100px;
+    padding-top: 8px;
+}
+
+.upgrade{
+    width: 225px;
+    height: 44px;
+    display: block;
+    border-radius: 10px;
+}
+
+.up_ic_border{
+    float: left;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 8px;
+    margin-top: 3px;
+    border: 1px solid rgba(255, 255, 255, .2);
+}
+
+.up_ic{
+    width: 22px;
+    height: 22px;
+    margin-top: 1px;
+    margin-left: 3px;
+}
+
+.up_text{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    margin-left: 6px;
+}
+
+.up_text2{
+    font-size: 12px;
+    font-weight: 400;
+    color: #c5c5d2;
+    margin-left: 6px;
+    margin-top: 2px;
+}
+
+.upgrade:hover{
+    background-color: rgb(32,33,35);
+    border-radius: 8px;
+}
+
+.user{
+    width: 225px;
+    height: 48px;
+    padding: 8px;
+    margin-top: 5px;
+    display: block;
+    border-radius: 10px;
+}
+
+.user_ic{
+    float: left;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.user_text{
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    margin-left: 8px;
+    margin-top: 7px;
+}
+
+.user:hover{
+    background-color: rgb(32,33,35);
+}
